@@ -2,12 +2,11 @@
 #include <stdbool.h>
 
 int main () {
-    int a[10];
+    int a[100];
     int n;
 
     printf("Masukkan n: ");
     scanf("%d", &n);
-
     printf("========================================\n");
     //mengisi array menggunakan for
     for (int i = 0; i < n; i++)
