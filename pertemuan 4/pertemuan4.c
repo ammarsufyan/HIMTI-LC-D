@@ -4,13 +4,12 @@
 int main () {
     int a[100];
     int n;
-
     printf("Masukkan n: ");
     scanf("%d", &n);
+
     printf("========================================\n");
     //mengisi array menggunakan for
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {   
         printf("Bilangan cacah ke-%d = ", i+1);
         scanf("%d", &a[i]);
         printf("\n");
@@ -25,18 +24,20 @@ int main () {
     printf("========================================\n");
 
 
-    //mencari maksimum nilai array menggunakan for
-    int temp_max = a[0], temp_min = a[0];
+    //mencari maksimum dan minimum nilai array menggunakan for
+    int max = a[0];
+    int min = a[0];
+
     for(int i = 0; i < n; i++) {
-        if(a[i] > temp_max) {
-            temp_max = a[i];
+        if(a[i] > max) {
+            max = a[i];
         }
 
-        if(a[i] < temp_min) {
-            temp_min = a[i];
+        if(a[i] < min) {
+            min = a[i];
         }
     }
-    printf("temp_max = %d , temp_min = %d\n\n", temp_max, temp_min);
+    printf("nilai maksimum = %d , nilai minimum = %d\n\n", max, min);
 
     //mengurutkan array dari tinggi ke rendah
     int temp = 0;
@@ -58,7 +59,8 @@ int main () {
     printf("========================================\n");
 
     //mencari indeks nilai sebuah array
-    int cariNilai = 0, indeks = 0;
+    int cariNilai = 0;
+    int indeks = 0;
     bool cariIndeks = false;
 
     printf("Masukkan nilai yang ingin Anda cari = ");
