@@ -1,6 +1,7 @@
 <h1 align = "center"> LEARNING CLASS D 2021 </h1><br>
-<h2 align = "center"> 📍 STARTER PACK 📍 </h2><br>
-<p align = "center"><b> klik icon untuk mendownload </b></p>
+<p align = "center"><b> 📍 STARTER PACK 📍 <br>
+                    klik icon untuk mendownload 
+</b></p><hr>
 
 <div align = "center">
     <b>IDE:</b> 
@@ -8,6 +9,8 @@
     <b>Text Editor + Compiler:</b> 
     <br><a href = "https://code.visualstudio.com/download"> <img align="center" width = "25px" alt = "VSCODE" src = "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"></a>
     <a href = "https://sourceforge.net/projects/mingw-w64/"> <img align="center" width = "25px" alt = "MINGW64" src = "https://img.icons8.com/color/48/000000/domain--v1.png"></a>
-</div>
+</div><br><hr>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BK_ciBOXWr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align = "center"><b> VIDEO TUTORIAL INSTALL VSCODE DAN COMPILER </b></p>
+
+[![TUTORIAL INSTALL VSCODE + COMPILER](https://i.ytimg.com/vi/BK_ciBOXWr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0FEJaRaf8gG5WrglIpTFvJhti0Q)](https://www.youtube.com/watch?v=BK_ciBOXWr0)
