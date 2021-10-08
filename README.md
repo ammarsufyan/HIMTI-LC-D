@@ -11,6 +11,9 @@
     <a href = "https://sourceforge.net/projects/mingw-w64/"> <img align="center" width = "25px" alt = "MINGW64" src = "https://img.icons8.com/color/48/000000/domain--v1.png"></a>
 </div><br><hr>
 
+<div align = "center">
 <p align = "center"><b> VIDEO TUTORIAL INSTALL VSCODE DAN COMPILER </b></p>
 
 [![TUTORIAL INSTALL VSCODE + COMPILER](https://i.ytimg.com/vi/BK_ciBOXWr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0FEJaRaf8gG5WrglIpTFvJhti0Q)](https://www.youtube.com/watch?v=BK_ciBOXWr0)
+
+</div>
