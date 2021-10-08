@@ -1,0 +1,29 @@
+DEKLARASI:
+	hh, mm, ss: integer
+ALGORITMA:
+	repeat
+		write("Masukkan Jam (hh:mm:ss): ")
+		read(hh, mm, ss)
+	until hh >= 24 || mm >= 60 || ss >= 60
+	
+	write("Jam Lama = ",hh, ":", mm, ":", ss)
+	writeln()
+	writeln()
+	
+	ss <- ss + 1
+	
+	if (ss == 60)
+		mm <- mm + 1
+		mm <- 0
+	end if
+	
+	if (mm == 60)
+		hh <- hh + 1
+		mm <- 0
+	end if
+	
+	if (hh == 24)
+		hh <- 0
+	end if
+	
+	write("Jam Lama + 1 detik = ",hh, ":", mm, ":", ss)

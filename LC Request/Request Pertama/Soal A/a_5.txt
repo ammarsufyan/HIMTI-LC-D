@@ -1,0 +1,25 @@
+DEKLARASI:
+	hari, bulan, tahun: float
+ALGORITMA:
+	repeat
+		write("Masukkan Hari: ")
+		write(hari)
+	until hari <= 0
+	
+	bulan <- hari/30
+	tahun <- hari/365
+	
+	write("========================================================")
+	writeln()
+	write("hari = ", hari)
+	writeln()
+	write("bulan = ", bulan)
+	writeln()
+	write("tahun = ", tahun)
+	writeln()
+	write("========================================================")
+	writeln()
+	
+	write("(YY:MM:DD) = ", tahun, ":", bulan, ":", hari)
+	write("========================================================")
+	writeln()

@@ -1,0 +1,41 @@
+DEKLARASI:
+	a1, b1, a2, b2: integer
+	hasil_penjumlahan, hasil_pengurangan: integer
+	fpb, perkalian_pembilang, perkalian_penyebut, pembagian_pembilang, pembagian_penyebut: integer
+ALGORITMA:
+	repeat
+		write("Masukkan a1 dan b1 (a1/b1): ")
+		read(a1, b1)
+	until b1 == 0
+	
+	repeat
+		write("Masukkan a1 dan b1 (a2/b2): ")
+		read(a2, b2)
+	until b2 == 0
+	
+	write("========================================================")
+	writeln()
+	
+	fpb <- b1 * b2
+	
+	hasil_penjumlahan = (fpb/b1) * a1 + (fpb/b2) * a2
+	
+	writeln()
+	write("Hasil Penjumlahannya = ", hasil_penjumlahan, "/", fpb)
+	
+	hasil_pengurangan = (fpb/b1) * a1 - (fpb/b2) * a2
+	writeln()
+	write("Hasil Penjumlahannya = ", hasil_pengurangan, "/", fpb)
+	
+	perkalian_pembilang = a1 * a2
+	perkalian_penyebut = b1 * b2
+	writeln()
+	write("Hasil Perkaliannya = ", perkalian_pembilang, "/", perkalian_penyebut)
+	
+	pembagian_pembilang = a1 * b2
+	pembagian_penyebut = b1 * a2
+	writeln()
+	write("Hasil Perkaliannya = ", pembagian_pembilang, "/", pembagian_penyebut)
+	
+	write("========================================================")
+	writeln()
