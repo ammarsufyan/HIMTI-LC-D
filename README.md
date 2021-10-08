@@ -14,6 +14,6 @@
 <div align = "center">
 <p align = "center"><b> VIDEO TUTORIAL INSTALL VSCODE DAN COMPILER </b></p>
 
-[![TUTORIAL INSTALL VSCODE + COMPILER](https://i.ytimg.com/vi/BK_ciBOXWr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0FEJaRaf8gG5WrglIpTFvJhti0Q)](<a href = "https://www.youtube.com/watch?v=BK_ciBOXWr0" target="_blank">)
+[![TUTORIAL INSTALL VSCODE + COMPILER](https://i.ytimg.com/vi/BK_ciBOXWr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0FEJaRaf8gG5WrglIpTFvJhti0Q)](https://www.youtube.com/watch?v=BK_ciBOXWr0")
 
 </div>
