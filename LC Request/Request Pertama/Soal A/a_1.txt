@@ -19,7 +19,7 @@ ALGORITMA:
 	
 	if (mm == 60)
 		hh <- hh + 1
-		mm <- 0
+		ss <- 0
 	end if
 	
 	if (hh == 24)
