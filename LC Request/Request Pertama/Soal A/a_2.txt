@@ -15,10 +15,10 @@ ALGORITMA:
 	
 	mm <- mm + tambahMenit
 	
-	if (mm == 60)
+	while mm >= 60 do
+		mm <- mm - 60
 		hh <- hh + 1
-		mm <- 0
-	end if
+	end while
 	
 	if (hh == 24)
 		hh <- 0
