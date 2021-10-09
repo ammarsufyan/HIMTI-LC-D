@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int hh, mm, ss;
+    int hh, mm, ss, tambahMenit;
     
     do {
         printf("Masukkan Jam (hh:mm:ss): ");
@@ -9,9 +9,6 @@ int main() {
     }while(hh >= 24 || mm >= 60 || ss >= 60);
 
     printf("Jam Lama = %02d:%02d:%02d\n\n", hh, mm , ss);
-
-    // nambah 1 menit
-    int tambahMenit;
 
     printf("Ingin menambah berapa menit?");
     scanf("%d", &tambahMenit);
@@ -31,3 +28,4 @@ int main() {
 
     return 0;
 }
+
