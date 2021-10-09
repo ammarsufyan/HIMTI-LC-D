@@ -23,7 +23,7 @@ int main() {
         hh += 1;
     }
 
-    if(hh >= 24) {
+    while(hh >= 24) {
         hh -= 24;
     }
 
