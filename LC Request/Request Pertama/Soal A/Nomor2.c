@@ -14,7 +14,7 @@ int main() {
     int tambahMenit;
 
     printf("Ingin menambah berapa menit?");
-    scanf("%02d", &tambahMenit);
+    scanf("%d", &tambahMenit);
 
     mm += tambahMenit;
 
@@ -23,11 +23,11 @@ int main() {
         hh += 1;
     }
 
-    if(hh == 24) {
-        hh = 0;
+    if(hh >= 24) {
+        hh -= 24;
     }
 
-    printf("Jam Lama + 1 menit = %02d:%02d:%02d\n\n", hh, mm , ss);
+    printf("Jam Lama + %d menit = %02d:%02d:%02d\n\n", tambahMenit, hh, mm , ss);
 
     return 0;
 }
