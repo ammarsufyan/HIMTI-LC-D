@@ -2,17 +2,15 @@
 
 int main() {
     int hh, mm, ss;
-    
+
     do {
-        printf("Masukkan Jam (hh:mm:ss): ");
+        printf("Masukkan Jam Lama (hh:mm:ss):");
         scanf("%02d:%02d:%02d", &hh, &mm, &ss);
-    }while(hh >= 24 || mm >= 60 || ss >= 60);
+    }while(hh >= 24 || mm >= 60 || ss >= 60);    
 
-    printf("Jam Lama = %02d:%02d:%02d\n\n", hh, mm , ss);
-    
-    // nambah 1 detik
+    printf("\nJam Lama = %02d:%02d:%02d", hh, mm, ss);
+
     ss += 1;
-
     if(ss == 60) {
         mm += 1;
         ss = 0;
@@ -27,7 +25,6 @@ int main() {
         hh = 0;
     }
 
-    printf("Jam Lama + 1 detik = %02d:%02d:%02d\n\n", hh, mm, ss);
-
+    printf("\nJam Lama + 1 Detik = %02d:%02d:%02d", hh, mm, ss);
     return 0;
 }
