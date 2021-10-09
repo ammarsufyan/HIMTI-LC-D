@@ -30,9 +30,9 @@ int main() {
 
     hasil_pengurangan = (fpb/b1) * a1 - (fpb/b2) * a2;
     
-    printf("Hasil Penjumlahannya = %d/%d\n\n", hasil_pengurangan, fpb);
+    printf("Hasil Pengurangannya = %d/%d\n\n", hasil_pengurangan, fpb);
 
-    //perkalian pecahan 1 dan pechahan 2
+    //perkalian pecahan 1 dan pecahan 2
     int perkalian_pembilang, perkalian_penyebut;
     
     perkalian_pembilang = a1 * a2;
