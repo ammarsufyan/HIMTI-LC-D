@@ -27,7 +27,7 @@ int main() {
         hh = 0;
     }
 
-    printf("Jam Lama + 1 detik = %02d:%02d:%02d\n\n", hh, mm , ss);
+    printf("Jam Lama + 1 detik = %02d:%02d:%02d\n\n", hh, mm, ss);
 
     return 0;
 }
