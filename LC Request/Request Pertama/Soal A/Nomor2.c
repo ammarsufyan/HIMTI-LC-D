@@ -18,9 +18,9 @@ int main() {
 
     mm += tambahMenit;
 
-    if(mm == 60) {
+    while(mm >= 60) {
+        mm -= 60;
         hh += 1;
-        mm = 0;
     }
 
     if(hh == 24) {
