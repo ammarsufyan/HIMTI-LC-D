@@ -1,25 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    float hari;
+int main(){
+    int hari, bulan, tahun;
 
-    do {
-        printf("Masukkan Hari: ");
-        scanf("%f", &hari);
-    } while(hari <= 0);
+    do{
+        printf("Masukkan hari: ");
+        scanf("%d", &hari);
+    }while(hari <= -1);
 
-    float bulan = hari/30;
+    tahun = hari/365;
+    hari %= 365;
 
-    float tahun = hari/365;
+    bulan = hari/30;
+    hari %= 30;
 
-    printf("============================================\n");
-    printf("hari  = %f\n"
-           "bulan = %f\n"
-           "tahun = %f\n",
-            hari, bulan, tahun);
-    printf("============================================\n");
+    printf("Tahun: %d\n", tahun);
+    printf("Bulan: %d\n", bulan);
+    printf("Hari: %d\n", hari);
 
-    printf("(YY:MM:DD) = %.2f:%.2f:%.2f\n", tahun, bulan, hari);
-    printf("============================================\n");
     return 0;
 }

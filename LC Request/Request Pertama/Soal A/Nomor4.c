@@ -1,29 +1,25 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    float detik;
+int main(){
+    int detik, menit, jam, hari;
 
-    do {
-        printf("Masukkan Detik: ");
-        scanf("%f", &detik);
-    } while(detik <= 0);
+    do{
+        printf("Masukkan detik: ");
+        scanf("%d", &detik);
+    }while(detik <= -1);
 
-    float menit = detik/60;
+    hari = detik/86400;
+    detik %= 86400;
 
-    float jam = detik/3600;
+    jam = detik/3600;
+    detik %= 3600;
 
-    float hari = detik/86400;
+    menit = detik/60;
+    detik %= 60;
 
-    printf("============================================\n");
-    printf("Detik = %f\n"
-           "Menit = %f\n"
-           "Jam   = %f\n"
-           "Hari  = %f\n",
-            detik, menit, jam, hari);
-    printf("============================================\n");
-
-    //dengan format (DD:hh:mm:ss)
-    printf("(DD:hh:mm:ss) = %.2f:%.2f:%.2f:%.2f\n", hari, jam, menit, detik);
-    printf("============================================\n");
+    printf("Hari: %d\n", hari);
+    printf("Jam: %d\n", jam);
+    printf("Menit: %d\n", menit);
+    printf("Detik: %d", detik);
     return 0;
 }

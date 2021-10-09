@@ -1,28 +1,25 @@
 DEKLARASI:
-	detik, menit, jam, hari: float
+	detik, menit, jam, hari: integer
 ALGORITMA:
 	repeat
-		write("Masukkan Detik: ")
+		write("Masukkan detik: ")
 		read(detik)
-	until detik <= 0
-	
-	menit <- detik/60
-	jam <- detik/3600
+	until detik <= -1
+
 	hari <- detik/86400
-	
-	write("========================================================")
+	detik <- detik % 86400
+
+	jam <- detik/3600
+	detik <- detik % 3600
+
+	menit <- detik/60
+	detik <- detik % 60
+
+	write("Hari: ", hari)
 	writeln()
-	write("Detik = ", detik)
+	write("Jam: ", jam)
 	writeln()
-	write("Menit = ", menit)
+	write("Menit: ", menit)
 	writeln()
-	write("Jam = ", jam)
-	writeln()
-	write("Hari = ", hari)
-	writeln()
-	write("========================================================")
-	writeln()
-	
-	write("(DD:hh:mm:ss) = ", hari, ":", jam, ":", menit, ":", detik)
-	write("========================================================")
+	write("Detik: ", detik)
 	writeln()
