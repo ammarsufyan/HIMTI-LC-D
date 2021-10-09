@@ -10,8 +10,10 @@ ALGORITMA:
 	writeln()
 	writeln()
 	
-	write("Ingin menambah berapa menit?")
-	read(tambahMenit)
+	repeat
+		write("Ingin menambah berapa menit?")
+		read(tambahMenit)
+	until mm <= -1
 	
 	mm <- mm + tambahMenit
 	
@@ -24,4 +26,4 @@ ALGORITMA:
 		hh <- 0
 	end if
 	
-	write("Jam Lama + 1 detik = ",hh, ":", mm, ":", ss)
+	write("Jam Lama +", tambahMenit, " menit = ",hh, ":", mm, ":", ss)
