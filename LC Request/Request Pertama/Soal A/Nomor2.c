@@ -10,8 +10,10 @@ int main() {
 
     printf("Jam Lama = %02d:%02d:%02d\n\n", hh, mm , ss);
 
-    printf("Ingin menambah berapa menit?");
-    scanf("%d", &tambahMenit);
+    do {
+        printf("Ingin menambah berapa menit?");
+        scanf("%d", &tambahMenit);
+    }while(tambahMenit < 0);
 
     mm += tambahMenit;
 
@@ -28,4 +30,5 @@ int main() {
 
     return 0;
 }
+
 
