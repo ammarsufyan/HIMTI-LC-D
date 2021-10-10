@@ -4,7 +4,7 @@ ALGORITMA:
 	repeat
 		write("Masukkan Jam (hh:mm:ss): ")
 		read(hh, mm, ss)
-	until hh >= 24 || mm >= 60 || ss >= 60
+	until hh >= 24 || mm >= 60 || ss >= 60 || hh < 0 || mm < 0 || ss < 0
 	
 	write("Jam Lama = ",hh, ":", mm, ":", ss)
 	writeln()
