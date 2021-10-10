@@ -5,7 +5,7 @@ int main() {
     
     do {
         printf("Masukkan Jam (hh:mm:ss): ");
-        scanf("%02d:%02d:%02d", &hh, &mm, &ss);
+        scanf("%d:%d:%d", &hh, &mm, &ss);
     }while(hh >= 24 || mm >= 60 || ss >= 60);
 
     printf("Jam Lama = %02d:%02d:%02d\n\n", hh, mm , ss);
