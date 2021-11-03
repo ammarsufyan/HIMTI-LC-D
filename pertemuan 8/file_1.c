@@ -13,9 +13,10 @@ void readFile(FILE *fPtr)
 int main() {
     //FILE *test = fopen(“namafile",“filemode");
     FILE *demo = fopen("file_keren.txt", "a+");
-    // fputs("COBA MASUKKIN INI", demo);
+    // gw pake a+ karena dia append dan sekalian buat file kalau gaada
 
-    fputs("\n", demo); // membuat baris baru
+    // fputs("COBA MASUKKIN INI", demo); //MASUKIN MANUAL
+    // fputs("\n", demo); // membuat baris baru
 
     //GUA COBA PAKAI INPUT
     char input[100];
@@ -24,9 +25,8 @@ int main() {
     scanf("%s", input);
     fputs(input, demo);
     
-    rewind(demo);
-    readFile(demo);
-    fclose(demo);
+    rewind(demo); // balikin pointer/cursor ke awal
+    readFile(demo); // prosedur untuk baca file
+    fclose(demo); // abis dibuka jgn lupa ditutup
     return 0;
 }
-
